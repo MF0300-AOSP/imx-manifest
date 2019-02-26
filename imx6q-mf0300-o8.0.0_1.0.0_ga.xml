@@ -11,20 +11,24 @@
            fetch="git://git.freescale.com/proprietary/"
            review="" />
 
+  <remote  name="mf0300"
+           fetch="https://github.com/MF0300-AOSP/"
+           review="" />
+
   <!--> imx-firmware needs to be fetched from git.freescale.com as it is proprietary <-->
-  <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="87ba304b9efbb2e8dbdd54af4c087584fb259535" />
+  <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="mf0300" revision="imx_o8.0.0_1.0.0-ga" />
 
   <!-- For imx public git. -->
-  <project path="vendor/nxp-opensource/kernel_imx" name="linux-imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="vendor/nxp-opensource/kernel_imx" name="kernel_imx" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
+  <project path="vendor/nxp-opensource/uboot-imx" name="uboot-imx" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
 
-  <project path="device/fsl" name="android-imx/device/fsl" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="device/fsl" name="platform-device-fsl" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/imx" name="android-imx/platform/hardware/imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="vendor/nxp-opensource/fsl_imx_demo" name="android-imx/platform/packages/apps/fsl_imx_demo" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="vendor/nxp-opensource/fsl_imx_demo" name="fsl_imx_demo" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
 
   <!-- For imx changed aosp git. -->
-  <project path="build/make" name="aosp/platform/build" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga">
+  <project path="build/make" name="platform-build-make" groups="pdk" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -38,14 +42,14 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bootable/recovery" name="aosp/platform/bootable/recovery" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
+  <project path="bootable/recovery" name="aosp-platform-bootable-recovery" groups="pdk" remote="mf0300" revision="imx_o8.0.0_1.0.0-ga"/>
   <project path="external/tinyalsa" name="aosp/platform/external/tinyalsa" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
   <project path="external/f2fs-tools" name="aosp/platform/external/f2fs-tools" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
-  <project path="frameworks/av" name="aosp/platform/frameworks/av" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="frameworks/base" name="aosp/platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="frameworks/av" name="platform-frameworks-av" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
+  <project path="frameworks/base" name="android_platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="frameworks/layoutlib" name="aosp/platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="frameworks/native" name="aosp/platform/frameworks/native" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
-  <project path="hardware/broadcom/libbt" name="aosp/platform/hardware/broadcom/libbt" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="frameworks/native" name="platform-frameworks-native" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
+  <project path="hardware/broadcom/libbt" name="aosp-platform-hardware-broadcom-libbt" groups="pdk" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="packages/apps/Bluetooth" name="aosp/platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="packages/apps/Camera2" name="aosp/platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="packages/apps/DeskClock" name="aosp/platform/packages/apps/DeskClock" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
@@ -54,7 +58,7 @@
   <project path="packages/apps/Music" name="aosp/platform/packages/apps/Music" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="packages/apps/SoundRecorder" name="aosp/platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="packages/inputmethods/LatinIME" name="aosp/platform/packages/inputmethods/LatinIME" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
-  <project path="system/core" name="aosp/platform/system/core" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="system/core" name="platform-system-core" groups="pdk" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="system/extras" name="aosp/platform/system/extras" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="system/tools/bpt" name="aosp/platform/system/tools/bpt" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
 
