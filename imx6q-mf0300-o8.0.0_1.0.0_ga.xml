@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <include name="aosp-O8.0.0-1.0.0.xml"/>
+  <include name="aosp-cve-O8.0.0-1.0.0.xml"/>
 
   <remote  name="android-imx"
            fetch="https://source.codeaurora.org/external/imx/"
