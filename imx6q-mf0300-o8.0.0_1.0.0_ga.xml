@@ -24,7 +24,7 @@
   <project path="vendor/nxp-opensource/imx-lib" name="imx-lib" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
 
   <project path="device/fsl" name="platform-device-fsl" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
-  <project path="vendor/nxp-opensource/imx" name="android-imx/platform/hardware/imx" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
+  <project path="vendor/nxp-opensource/imx" name="imx" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="vendor/nxp-opensource/fsl_imx_demo" name="fsl_imx_demo" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
 
   <!-- For imx changed aosp git. -->
