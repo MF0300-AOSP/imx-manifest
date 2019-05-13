@@ -49,7 +49,7 @@
   <project path="frameworks/base" name="platform-frameworks-base" groups="pdk-cw-fs,pdk-fs" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="frameworks/layoutlib" name="aosp/platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="frameworks/native" name="platform-frameworks-native" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
-  <project path="hardware/broadcom/libbt" name="aosp-platform-hardware-broadcom-libbt" groups="pdk" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
+  <project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" groups="pdk" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="packages/apps/Bluetooth" name="aosp/platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="packages/apps/Camera2" name="aosp/platform/packages/apps/Camera2" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="packages/apps/DeskClock" name="aosp/platform/packages/apps/DeskClock" groups="pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
