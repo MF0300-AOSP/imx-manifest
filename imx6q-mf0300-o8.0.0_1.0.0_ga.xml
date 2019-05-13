@@ -15,6 +15,10 @@
            fetch="https://github.com/MF0300-AOSP/"
            review="" />
 
+  <remote  name="github"
+           fetch="https://github.com/"
+           review="" />
+
   <!--> imx-firmware needs to be fetched from git.freescale.com as it is proprietary <-->
   <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="mf0300" revision="imx_o8.0.0_1.0.0-ga" />
 
@@ -61,5 +65,36 @@
   <project path="system/core" name="platform-system-core" groups="pdk" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="system/extras" name="aosp/platform/system/extras" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="system/tools/bpt" name="aosp/platform/system/tools/bpt" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
+
+
+  <project path="external/libxml2" name="MF0300-AOSP/platform-external-libxml2" groups="pdk,libxml2" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/libvpx" name="MF0300-AOSP/platform-external-libvpx" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/libmpeg2" name="MF0300-AOSP/platform-external-libmpeg2" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/libhevc" name="MF0300-AOSP/platform-external-libhevc" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/libavc" name="MF0300-AOSP/platform-external-libavc" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/e2fsprogs" name="MF0300-AOSP/platform-external-e2fsprogs" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/chromium-libpac" name="MF0300-AOSP/platform-external-chromium-libpac" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/aac" name="MF0300-AOSP/platform-external-aac" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/neven" name="MF0300-AOSP/platform-external-neven" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/skia" name="MF0300-AOSP/platform-external-skia" groups="pdk,qcom_msm8x26" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/sonivox" name="MF0300-AOSP/platform-external-sonivox" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/svox" name="MF0300-AOSP/platform-external-svox" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/tremolo" name="MF0300-AOSP/platform-external-tremolo" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/v8" name="MF0300-AOSP/platform-external-v8" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="external/wpa_supplicant_8" name="MF0300-AOSP/platform-external-wpa_supplicant_8" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="frameworks/ex" name="MF0300-AOSP/platform-frameworks-ex" groups="pdk-cw-fs,pdk-fs" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="frameworks/minikin" name="MF0300-AOSP/platform-frameworks-minikin" groups="pdk-cw-fs,pdk-fs" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="frameworks/opt/telephony" name="MF0300-AOSP/platform-frameworks-opt-telephony" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="libcore" name="MF0300-AOSP/platform-libcore" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="packages/apps/PackageInstaller" name="MF0300-AOSP/platform-packages-apps-PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
+  <project path="packages/apps/Settings" name="MF0300-AOSP/platform-packages-apps-Settings" groups="pdk-fs" remote="github" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
+  <project path="packages/providers/DownloadProvider" name="MF0300-AOSP/platform-packages-providers-DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="system/bt" name="MF0300-AOSP/platform-system-bt" groups="pdk" remote="github" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
+  <project path="system/libhidl" name="MF0300-AOSP/platform-system-libhidl" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="system/media" name="MF0300-AOSP/platform-system-media" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="system/nfc" name="MF0300-AOSP/platform-system-nfc" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="system/security" name="MF0300-AOSP/platform-system-security" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="system/sepolicy" name="MF0300-AOSP/platform-system-sepolicy" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
+  <project path="system/vold" name="MF0300-AOSP/platform-system-vold" groups="pdk" remote="github" revision="o8.0.0_1.0.0-ga" />
 
 </manifest>
