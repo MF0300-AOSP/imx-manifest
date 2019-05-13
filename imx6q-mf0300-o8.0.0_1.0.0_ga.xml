@@ -46,7 +46,7 @@
   <project path="external/tinyalsa" name="aosp/platform/external/tinyalsa" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
   <project path="external/f2fs-tools" name="aosp/platform/external/f2fs-tools" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
   <project path="frameworks/av" name="platform-frameworks-av" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
-  <project path="frameworks/base" name="android_platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
+  <project path="frameworks/base" name="platform-frameworks-base" groups="pdk-cw-fs,pdk-fs" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="frameworks/layoutlib" name="aosp/platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="frameworks/native" name="platform-frameworks-native" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="hardware/broadcom/libbt" name="aosp-platform-hardware-broadcom-libbt" groups="pdk" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
