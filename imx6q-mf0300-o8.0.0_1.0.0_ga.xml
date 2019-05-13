@@ -89,7 +89,7 @@
   <project path="system/bt" name="platform-system-bt" groups="pdk" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="system/libhidl" name="platform-system-libhidl" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="system/media" name="platform-system-media" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
-  <project path="system/nfc" name="platform-system-nfc" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
+  <project path="system/nfc" name="platform-system-nfc" groups="pdk" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
   <project path="system/security" name="platform-system-security" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="system/sepolicy" name="platform-system-sepolicy" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="system/vold" name="platform-system-vold" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
