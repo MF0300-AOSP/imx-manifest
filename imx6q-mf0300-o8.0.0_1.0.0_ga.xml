@@ -42,7 +42,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bootable/recovery" name="aosp-platform-bootable-recovery" groups="pdk" remote="mf0300" revision="imx_o8.0.0_1.0.0-ga"/>
+  <project path="bootable/recovery" name="platform-bootable-recovery" groups="pdk" remote="mf0300" revision="imx_o8.0.0_1.0.0-ga"/>
   <project path="external/tinyalsa" name="aosp/platform/external/tinyalsa" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
   <project path="external/f2fs-tools" name="aosp/platform/external/f2fs-tools" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
   <project path="frameworks/av" name="platform-frameworks-av" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
