@@ -62,7 +62,7 @@
   <project path="system/extras" name="aosp/platform/system/extras" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga" />
   <project path="system/tools/bpt" name="aosp/platform/system/tools/bpt" groups="pdk" remote="android-imx" revision="refs/tags/o8.0.0_1.0.0-ga"/>
 
-
+  <!-- Updated aosp repos, mostly because of CVE updates. -->
   <project path="external/libxml2" name="platform-external-libxml2" groups="pdk,libxml2" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="external/libvpx" name="platform-external-libvpx" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="external/libmpeg2" name="platform-external-libmpeg2" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
