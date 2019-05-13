@@ -80,6 +80,7 @@
   <project path="external/wpa_supplicant_8" name="platform-external-wpa_supplicant_8" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="frameworks/ex" name="platform-frameworks-ex" groups="pdk-cw-fs,pdk-fs" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="frameworks/minikin" name="platform-frameworks-minikin" groups="pdk-cw-fs,pdk-fs" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
+  <project path="frameworks/opt/net/ethernet" name="platform-frameworks-opt-net-ethernet" groups="pdk-fs" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="frameworks/opt/telephony" name="platform-frameworks-opt-telephony" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="libcore" name="platform-libcore" groups="pdk" remote="mf0300" revision="o8.0.0_1.0.0-ga" />
   <project path="packages/apps/PackageInstaller" name="platform-packages-apps-PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="mf0300" revision="imx6q-mf0300_o8.0.0_1.0.0-ga" />
