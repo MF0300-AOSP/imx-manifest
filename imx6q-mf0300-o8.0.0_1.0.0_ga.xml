@@ -12,7 +12,7 @@
            review="" />
 
   <remote  name="mf0300"
-           fetch="https://github.com/MF0300-AOSP/"
+           fetch="https://github.com/mf0300-aosp-a8/"
            review="" />
 
   <!--> imx-firmware needs to be fetched from git.freescale.com as it is proprietary <-->
